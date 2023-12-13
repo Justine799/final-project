@@ -11988,4 +11988,16 @@ h4, .h4 {
   background-color: #d6d2c0 !important;
 }
 
+.bg-tertiary {
+  background-color: #6a9a72 !important;
+}
+
+.bg-aside {
+  background-color: #f5f5f5 !important;
+}
+
+.small-images {
+  width: 30%;
+}
+
 /*# sourceMappingURL=custom.css.map */

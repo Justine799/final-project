@@ -172,10 +172,24 @@ h4 {
   width: 80%;
 }
 
+// Background colors
+
 .bg-primary {
   background-color: $secondary!important;
 }
 
 .bg-secondary {
   background-color: $primary!important;
+}
+
+.bg-tertiary {
+  background-color: $button!important;
+}
+
+.bg-aside {
+  background-color: $background!important;
+}
+
+.small-images {
+  width: 30%;
 }
