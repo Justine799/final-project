@@ -11958,6 +11958,10 @@ h4, .h4 {
   margin: 25px;
 }
 
+.margin-40px {
+  margin: 45px;
+}
+
 .margin-left {
   margin-left: 20px;
   margin-bottom: 15px;
@@ -11974,6 +11978,14 @@ h4, .h4 {
 
 .books-width {
   width: 80%;
+}
+
+.bg-primary {
+  background-color: #edece5 !important;
+}
+
+.bg-secondary {
+  background-color: #d6d2c0 !important;
 }
 
 /*# sourceMappingURL=custom.css.map */

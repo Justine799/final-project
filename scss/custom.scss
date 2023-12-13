@@ -32,6 +32,7 @@ $heading4-font: 'Lato', sans-serif;
 $bodytext: 'Lato', sans-serif;
 
 $spacing: 25px;
+$spacing-2: 45px;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -149,6 +150,10 @@ h4 {
   margin: $spacing;
 }
 
+.margin-40px {
+ margin: $spacing-2;
+}
+
 .margin-left {
   margin-left: 20px;
   margin-bottom: 15px;
@@ -165,4 +170,12 @@ h4 {
 
 .books-width {
   width: 80%;
+}
+
+.bg-primary {
+  background-color: $secondary!important;
+}
+
+.bg-secondary {
+  background-color: $primary!important;
 }
