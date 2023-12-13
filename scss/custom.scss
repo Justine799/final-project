@@ -24,6 +24,8 @@ $font-size-h6: 1rem;
 $card-width: 300px;
 $card-margin: 10px;
 
+$text-green: #6a9a72;;
+
 // Font variables
 $heading1-font: 'Lato', sans-serif;
 $heading2-font: 'Lato', sans-serif;
@@ -88,6 +90,19 @@ margin: 0 auto;
   background-color: $button;
   color: #fff;
 }
+
+.big-btn-custom {
+  font-size: 700;
+  background-color: $button;
+  color: #fff;
+}
+
+.custom-big-btn {
+  font-family: 'Merriweather', serif;
+  font-size: 700;
+  color: #fff;
+}
+
 
 // Typography scale
  
@@ -214,4 +229,8 @@ ul.no-bullets {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.text-green {
+  color: $button;
 }
