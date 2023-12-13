@@ -4,45 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/custom.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon_io (1)/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon_io (1)/favicon.ico">
     <title>Homepage</title>
 </head>
 <body>
 
-    <nav>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="my-books.html">My Books</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Discover</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Community</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="my-profile.html">My Profile</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/goodreads-logo/goodreads-logo-dark-brown.png" width=200; alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active nav-styling" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-styling" href="my-books.html">My Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-styling" href="#">Discover</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-styling" aria-disabled="true">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-styling" aria-disabled="true">My Profile</a>
+                    </li>
+                </ul>
+            <a class="navbar-brand" href="#">
+                <img src="images/profile-icon-goodreads.png" width=40; alt="">
+            </a>
+            </div>
+        </div>
     </nav>
 
-    <h1>Trending this week in Fantasy</h1>
+    <div class="image-banner position-relative">
+        <h1 class="position-absolute">Trending this week <em>in Fantasy</em></h1>
+        <img class="w-100" src="images/background-homepage-final.jpg" alt="">
+    </div>
 
-    <h2>Recommendations</h2>
+    <div class="row wrapper">
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="custom-h2">Profile Overview</h3>
+                    <div>
+                        <h3 class="custom-h3">Reading challenge</h3>
+                            <img src="images/2023-reading-challenge.webp" alt="2023 Goodreads reading challenge">
+                            <p>17 books out of 40 completed (43%)</p>
+                    </div>
+                    <div>
+                        <h3 class="custom-h3">My Bookshelves</h3>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-header">
+                            Featured
+                        </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Read</li>
+                                <li class="list-group-item">To-be-Read</li>
+                                <li class="list-group-item">Did-Not-Finish</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="custom-h3">Currently Reading</h3>
+                    <img src="images/the-fragile-threads-of-power.webp" alt="The fragile threads of power, by V.E. Schwab">
+                    <img src="images/a-study-in-drowning.webp" alt="A study in drowning, by Ava Reid">
+                    <img src="images/sun-of-blood-and-ruin.webp" alt="Sun of blood and ruin, by Mariely Lares">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h2>Recommendations</h2>
+            <h3>Because you enjoyed <em>One Dark Window</em></h3>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img class="w-100" src="images/divine-rivals.webp" alt="Divine rivals, by Rebecca Ross">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="w-100" src="images/fourth-wing.webp" alt="Fourth wings, by Rebecca Yarros">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="w-100" src="images/belladonna.webp" alt="Belladonna, by Adalyn Grace">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="w-100" src="images/foxglove.webp" alt="Foxglove, by Adalyn Grace">
+                    </div>
+                </div>
+            </div>
+            <h3>Because you shelved <em>Mistborn</em></h3>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img class="w-100" src="images/the-name-of-the-wind.webp" alt="The Name of the Wind, by Patrick Rothfuss">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="w-100" src="images/red-rising.webp" alt="Red Rising, by Pierce Brown">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="w-100" src="images/the-blade-itself.webp" alt="The Blade Itself, by Joe Abercrombie">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="w-100" src="images/jade-city.webp" alt="Jade City, by Fonda Lee">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <h3>Because you enjoyed One Dark Window</h3>
+    <div class="wrapper">
+        <h2 class="custom-h2">Updates</h2>
+        <div class="card mb-3 w-100">
+            <div class="row g-0">
+                <div class="card col">
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <h3 class="card-title custom-h3-bold p5 margin-20px">One Dark Window</h3>
+                            <img src="images/one-dark-window.webp" class="img-fluid rounded-start border-radius-books books-width margin-left" alt="One Dark Window, by Rachel Gillig">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-custom btn-lg margin-button">Want to Read</button>
+                                <p class="card-text">Elspeth Spindle needs more than luck to stay safe in the eerie, mist-locked kingdom of Blunder—she needs a monster. She calls him the Nightmare, an ancient...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <h3>Because you shelved Mistborn</h3>
+                <div class="card col">
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <h3 class="card-title custom-h3-bold p5 margin-20px">Happy Place</h3>
+                            <img src="images/happy-place.webp" class="img-fluid rounded-start border-radius-books books-width margin-left" alt="Happy Place, by Emily Henry">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-custom btn-lg margin-button">Want to Read</button>
+                                <p class="card-text">Harriet and Wyn have been the perfect couple since they met in college—they go together like salt and pepper, honey and tea, lobster and rolls. Except, now—for reasons...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <section>
-        <h3>Profile Overview</h3>
-            <h4>Reading challenge</h4>
-    </section>
+                <div class="card col">
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <h3 class="card-title custom-h3-bold p5 margin-20px">Harry Potter</h3>
+                            <img src="images/harry-potter.webp" class="img-fluid rounded-start border-radius-books books-width margin-left" alt="Harry Potter, by J.K.Rowling">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-custom btn-lg margin-button">Want to Read</button>
+                                <p class="card-text">Harry Potter thinks he is an ordinary boy — until he is rescued by an owl, taken to Hogwarts School of Witchcraft and Wizardry, learns to play Quidditch...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <h2>Updates</h2>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
