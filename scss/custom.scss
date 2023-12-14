@@ -12,7 +12,6 @@ $button:        #6a9a72;
 $background:    #f5f5f5;
 $text:          #3d3d3d;
 
-
 // Typography scale
 $font-size-h1: 3.052rem;
 $font-size-h2: 2.441rem;
@@ -33,9 +32,6 @@ $heading3-font: 'Merriweather', serif;
 $heading4-font: 'Lato', sans-serif;
 $bodytext: 'Lato', sans-serif;
 
-$spacing: 25px;
-$spacing-2: 45px;
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -45,19 +41,10 @@ $spacing-2: 45px;
     --bs-body-bg: #f5f5f5;
 }
 
-nav {
-    background-color: $primary;
-    padding: 1rem;
-}
-
 .wrapper {
-max-width: 1500px;
-margin: 0 auto;
-}
-
-.nav-link {
-    color: var(--bs-link);
-}
+  max-width: 1500px;
+  margin: 0 auto;
+  }
 
 .image-banner h1 {
     color: white;
@@ -73,9 +60,8 @@ margin: 0 auto;
   .card {
     width: $card-width;
     margin-right: $card-margin;
-  
-    // Style the card further if needed
   }
+    // Style the card further if needed
   
   // Adjust the margin of the last card to remove the extra margin
   .card:last-child {
@@ -102,7 +88,6 @@ margin: 0 auto;
   font-size: 700;
   color: #fff;
 }
-
 
 // Typography scale
  
@@ -165,13 +150,22 @@ h4 {
   font-weight: 600;
 }
 
+nav {
+  background-color: $primary;
+  padding: 1rem;
+}
+
+.nav-link {
+  color: var(--bs-link);
+}
+
 // Footer
 
 .text-footer {
   color: #3d3d3d;
 }
 
-// Margin & Padding & Border Radius
+// Margin & Padding & Width
 
 .margin-20px {
   margin: $spacing;
@@ -207,6 +201,12 @@ h4 {
   width: 20%;
 }
 
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 // Background colors
 
 .bg-primary {
@@ -228,12 +228,6 @@ h4 {
 .btn-gray {
   background-color: $text!important;
   color: #fff;
-}
-
-ul.no-bullets {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 .text-green {
