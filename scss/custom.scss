@@ -225,6 +225,11 @@ h4 {
   background-color: $background!important;
 }
 
+.btn-gray {
+  background-color: $text!important;
+  color: #fff;
+}
+
 ul.no-bullets {
   list-style-type: none;
   padding: 0;
@@ -234,3 +239,4 @@ ul.no-bullets {
 .text-green {
   color: $button;
 }
+
